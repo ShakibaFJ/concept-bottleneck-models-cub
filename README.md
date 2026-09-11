@@ -23,10 +23,10 @@ Two downstream label predictors are assessed:
 - **Decision Tree (DT)**
 
 ## Dataset:
-Experiments are conducted on **CUB-200-2011**, containing 200 bird species with image-level semantic attribute annotations.
---- Number of concepts(Attribute / concept annotations): 312
---- Number of classes: 200
---- Total images: 11788
+Experiments are conducted on **CUB-200-2011**, containing 200 bird species with image-level semantic attribute annotations:
+- Number of concepts(Attribute / concept annotations): 312
+- Number of classes: 200
+- Total images: 11788
 
 ## Usage:
 The notebook is designed to run in **Google Colab**.
