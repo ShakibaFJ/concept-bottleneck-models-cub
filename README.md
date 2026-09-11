@@ -37,8 +37,3 @@ A GPU runtime is recommended for model training.
 3. Execute the notebook cells sequentially.
 4. Run the desired CBM training and evaluation configurations.
 5. Analyse the effect of different concepts on label prediction by test-time intervention experiments.
-
-## Author:
-Shakiba Farjood
-Master's Degree in Computer Science – Artificial Intelligence
-University of Padova
