@@ -14,6 +14,14 @@ The notebook includes:
 - Experimental result visualisation,
 - Test-time intervention experiments.
 
+- **Sequential Training of CBM** – the label predictor is trained using concepts predicted by the trained concept predictor.
+- **Independent Training of CBM** – the label predictor is trained using ground-truth concepts.
+- **Joint Training of CBM** – the concept and label predictors are optimised jointly using concept and classification objectives.
+
+Two downstream label predictors are assessed:
+- **Multi-Layer Perceptron (MLP)**
+- **Decision Tree (DT)**
+
 ## Dataset:
 Experiments are conducted on **CUB-200-2011**, containing 200 bird species with image-level semantic attribute annotations.
 --- Number of concepts(Attribute / concept annotations): 312
@@ -22,6 +30,13 @@ Experiments are conducted on **CUB-200-2011**, containing 200 bird species with 
 
 ## Usage:
 The notebook is designed to run in **Google Colab**.
+A GPU runtime is recommended for model training.
+
+1. Open the `.ipynb` notebook in Google Colab.
+2. Install and import the required dependencies.
+3. Execute the notebook cells sequentially.
+4. Run the desired CBM training and evaluation configurations.
+5. Analyse the effect of different concepts on label prediction by test-time intervention experiments.
 
 ## Author:
 Shakiba Farjood
